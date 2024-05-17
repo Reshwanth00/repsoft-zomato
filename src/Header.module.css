@@ -1,0 +1,56 @@
+.mainContainer{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyContainer{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.zomatoTextImg{
+    height: 28px;
+    aspect-ratio: 4.5/1;
+}
+
+.middleContainer{
+    height: 70%;
+    width: 60%;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .13), 0 1px 4px 0 rgba(0, 0, 0, .11);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loginButton , .signInButton{
+    height: 60px;
+    width: 100px;
+    background-color: white;
+    border: none;
+    font-size: 22px;
+    font-weight:lighter;
+    color: rgb(177, 177, 177);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dropBoxContainer{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inputContainer{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

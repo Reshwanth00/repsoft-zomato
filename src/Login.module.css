@@ -1,0 +1,210 @@
+.mainContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyContainer{
+    height: 50%;
+    width: 25%;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+.innerContainer{
+    margin: 25px;
+}
+
+.loginTextContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loginTextDiv{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(45, 45, 45);
+}
+
+.closeIcons{
+    border: none;
+    background-color: white;
+}
+
+.phoneInputContainer{
+    border: solid 2px lightgray;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+    margin-top: 30px;
+}
+
+.flagImg{
+    height:25px ;
+    aspect-ratio: 1.5/1;
+    object-fit: cover;
+}
+
+.flagContainer{
+    margin: 10px;
+}
+.numberInputContainer{
+    width: 70%;
+}
+
+.numberDividerContainer{
+    border-right: solid 1px lightgray;
+    height: 70%;
+}
+
+.numberInput{
+    width: 90%;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+}
+
+.numberInput:focus{
+    border:none;
+    outline: none;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.contryCodeContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contryCodeIcon{
+    transform: rotate(90deg);
+
+}
+
+.otpInputContainer{
+    margin-top: 30px;
+    width: 100%;
+}
+
+.otpDiv{
+    width: 100%;
+    height: 45px;
+    border-radius:8px ;
+    border: none;
+    font-size: 17px;
+    background-color: #fc4b5d;
+    color: white;
+    font-weight: 200;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.orDividerContainer{
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.leftDivider , .rightDivider{
+    border-bottom: solid 1px lightgray;
+    width: 45%;
+}
+
+.emailContainer{
+    margin-top: 20px;
+    width: 100%;
+
+}
+
+.mailContainer{
+    width: 100%;
+    height: 45px;
+    border-radius:8px ;
+    border: solid 1px lightgray;
+    font-size: 15px;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.googleContainer{
+    margin-top: 20px;
+    width: 100%;
+
+}
+
+.googleDiv{
+    width: 100%;
+    height: 45px;
+    border-radius:8px ;
+    border: solid 1px lightgray;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 200;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.googleIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.googleImg{
+    height: 20px;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.mailIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomDividerContainer{
+    margin: 30px 0px 30px 0px;
+    width: 100%;
+    border-bottom: solid 1px lightgray;
+}
+
+.zomatoContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.createContainer{
+    color: #fc4b5d;
+}
+
+/* .phoneInputContainer:focus{
+    border: solid 1px rgb(54, 250, 234);
+} */
